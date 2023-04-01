@@ -8,6 +8,10 @@
     --mcolor: #4cd995e8;
     --bcolor: #fffefe;
 }
+header h1::after {
+    content: "(اصدار تجريبي)";
+}
+
 body {
     margin: 0;
     padding: 0;
