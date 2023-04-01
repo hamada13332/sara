@@ -1,5 +1,13 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 :root {
     --hcolor: #b44b6ce8;
     --mcolor: #90e315e8;
     --bcolor: #fffefe;
+    --blcolor: #000;
+}
+* {
+    font-family : "Amiri", serif;
+}
+section div p {
+    font-size: smaller;
 }

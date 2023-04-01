@@ -89,6 +89,7 @@ body {
     border: 2px solid var(--mcolor);
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
     border-radius: 15px;
+    color: var(--blcolor);
     }
     
     section article h2 {

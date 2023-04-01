@@ -64,16 +64,17 @@ h2 {
 
 .universities {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
 }
 
 .university {
     background-color: var(--bcolor);
-    padding: 20px;
+    padding: 55px;
     border-radius: 10px;
     box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
+    position: relative;
 }
 
 .university h3 {
@@ -93,11 +94,15 @@ h2 {
     color: var(--hcolor);
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 24px;
     padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid var(--hcolor);
     transition: background-color 0.3s, color 0.3s;
+    bottom: 3px;
+    position: absolute;
+    /* align-self: center; */
+    left: 31%;
 }
 
 .university a:hover {

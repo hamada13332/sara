@@ -12,7 +12,14 @@ body {
     background-image: url("photos/background4.webp");
     background-size: cover;
   }
-  
+  div.img {
+    background-image: url("photos/2030.jpg");
+    background-size: cover;
+    width: 435px;
+    height: 360px;
+    top: 10px;
+    margin: 124px 20px 12px;
+}
 header {
     background-color: var(--hcolor);
     color: var(--bcolor);
@@ -40,24 +47,29 @@ nav a {
     color: var(--bcolor);
     text-decoration: none;
 }
-
+div.up {
+    height: 595px;
+}
 section div {
     text-shadow: 3px 2px 2px #88ccd4;
-    color: wheat;
-    background: #00000063;
+    color: var(--hcolor);
+    /* background: #00000063; */
     border-radius: 14px;
     border: 18px;
     padding: 5px;
+    font-size: x-large;
+
+    width: 240px;
+    margin: 0 auto 0 70px;
 }
 section {
-    padding: 350px 0px;
+    padding: 0px 0px 205px;
     text-align: center;
     /* height: 33vh; */
+    margin: 0px;
 }
-
-section div {
-    width: 200px;
-    margin: 0 auto 0 70px;
+#science-clubs div {
+    margin: 0 70px 0 auto;
 }
 section>p {
     top: 121px;
