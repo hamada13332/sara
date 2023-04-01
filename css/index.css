@@ -48,8 +48,16 @@ nav a {
     text-decoration: none;
 }
 div.up {
-    height: 595px;
+    height: 536px;
 }
+p.title {
+    left: 33%;
+    margin: auto;
+    position: absolute;
+    font-size: 70px;
+    width: 500px;
+}
+
 section div {
     text-shadow: 3px 2px 2px #88ccd4;
     color: var(--hcolor);
@@ -63,7 +71,7 @@ section div {
     margin: 0 auto 0 70px;
 }
 section {
-    padding: 0px 0px 205px;
+    padding: 110px 0px 0px;
     text-align: center;
     /* height: 33vh; */
     margin: 0px;
@@ -74,18 +82,22 @@ section {
 section>p {
     top: 121px;
     position: absolute;
-    left: 35%;
-    color: var(--bcolor);
-    font-size: 45px;
+    left: 25%;
+    color: var(--blcolor);
+    font-size: 65px;
+}
+section div h2 {
+    font-size: 90px;
 }
 section a {
     display: block;
     margin-top: 20px;
-    color: var(--hcolor);
-    background-color: var(--bcolor);
+    color: var(--bcolor);
+    background-color: var(--hcolor);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    border-radius: 50px;
 }
 
 footer {

@@ -10,7 +10,7 @@ div.img {
 img {
     align-self: center;
     margin: 0 auto;
-    width: 600px;
+    /* width: 600px; */
 }
 body {
     font-family: Arial, sans-serif;
