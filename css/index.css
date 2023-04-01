@@ -70,11 +70,21 @@ section div {
     width: 240px;
     margin: 0 auto 0 70px;
 }
+@media screen and (min-width: 1200px) { 
+    section {
+        padding: 575px 0px 0px;
+        text-align: center;
+        /* height: 33vh; */
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 1199px) { 
 section {
     padding: 110px 0px 0px;
     text-align: center;
     /* height: 33vh; */
     margin: 0px;
+}
 }
 #science-clubs div {
     margin: 0 70px 0 auto;
