@@ -55,7 +55,7 @@ p.title {
     margin: auto;
     position: absolute;
     font-size: 70px;
-    width: 500px;
+    width: 500px;top: 170px;
 }
 
 section div {
