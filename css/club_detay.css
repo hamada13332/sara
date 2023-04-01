@@ -1,19 +1,4 @@
-/* :root {
-    --hcolor: #2d476ce8;
-    --bcolor: #4c87d9e8;
-    --mcolor: #fff;
-} */
-/* :root {
-    --hcolor: #1c424ae8;
-    --bcolor: #4cd995e8;
-    --mcolor: #fffefe;
-} */
 
-:root {
-    --hcolor: #1c424ae8;
-    --mcolor: #4cd995e8;
-    --bcolor: #fffefe;
-}
 * {
     box-sizing: border-box;
     margin: 0;

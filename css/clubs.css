@@ -1,19 +1,4 @@
-/* :root {
-    --hcolor: #2d476ce8;
-    --mcolor: #4c87d9e8;
-    --bcolor: #fff;
-} */
-/* :root {
-    --hcolor: #1c424ae8;
-    --mcolor: #4cd995e8;
-    --bcolor: #fffefe;
-} */
 
-:root {
-    --hcolor: #1c424ae8;
-    --mcolor: #4cd995e8;
-    --bcolor: #fffefe;
-}
 body {
     margin: 0;
     padding: 0;

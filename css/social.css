@@ -1,10 +1,4 @@
 
-
-:root {
-    --hcolor: #1c424ae8;
-    --mcolor: #4cd995e8;
-    --bcolor: #fffefe;
-}
 * {
     box-sizing: border-box;
     margin: 0;

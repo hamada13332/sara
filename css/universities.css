@@ -1,19 +1,4 @@
-/* 
-:root {
-    --hcolor: #4c87d9e8;
-    --bcolor: #e4eef0;
-} */
-/* :root {
-    --hcolor: #1c424ae8;
-    --hcolor: #4cd995e8;
-    --bcolor: #fffefe;
-} */
 
-:root {
-    --hcolor: #1c424ae8;
-    --mcolor: #4cd995e8;
-    --bcolor: #fffefe;
-}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
