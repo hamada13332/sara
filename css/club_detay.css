@@ -1,0 +1,207 @@
+/* :root {
+    --hcolor: #2d476ce8;
+    --bcolor: #4c87d9e8;
+    --mcolor: #fff;
+} */
+/* :root {
+    --hcolor: #1c424ae8;
+    --bcolor: #4cd995e8;
+    --mcolor: #fffefe;
+} */
+
+:root {
+    --hcolor: #1c424ae8;
+    --mcolor: #4cd995e8;
+    --bcolor: #fffefe;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div.img {
+    display: flex;
+}
+img {
+    align-self: center;
+    margin: 0 auto;
+    width: 600px;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--bcolor);
+    color: var(--hcolor);
+    direction: rtl;
+}
+
+header {
+    background-color: var(--bcolor);
+    color: var(--mcolor);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--hcolor);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    display: block;
+    color: var(--mcolor);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: var(--mcolor);
+    color: var(--hcolor);
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    background-color: var(--mcolor);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);border-radius: 10px;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+article a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--hcolor);
+    color: var(--mcolor);
+    text-decoration: none;border-radius: 10px;
+}
+
+article a:hover {
+    background-color: var(--mcolor);
+    color: var(--hcolor);
+}
+
+footer {
+    background-color: var(--hcolor);
+    padding: 20px;
+    text-align: center;
+    color: var(--mcolor);
+    bottom: 0px;
+    position: sticky;
+    width: 100%;
+}
+
+/* تصميم الصفحة بالكامل */
+/* 
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    background-color: var(--hcolor);
+    color: var(--mcolor);
+    padding: 10px;
+    text-align: center;
+    }
+    nav {
+        background-color: var(--mcolor);
+        padding: 10px;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+        padding: 3px;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    nav a {
+        color: var(--bcolor);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+        background-color: var(--bcolor);
+        color: #fff;
+    } 
+
+section {
+	padding: 20px;
+}
+
+article {
+	margin-bottom: 20px;
+	border: 1px solid var(--bcolor);
+	padding: 10px;
+}
+
+article h2 {
+	margin-top: 0;
+}
+
+article p {
+	margin-top: 0;
+}
+
+article a {
+	display: block;
+	margin-top: 10px;
+	text-align: right;
+	color: var(--hcolor);
+	text-decoration: none;
+}
+
+article a:hover {
+	color: #ff4d4d;
+}
+
+footer {
+	background-color: var(--hcolor);
+	color: var(--mcolor);
+	text-align: center;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+} */

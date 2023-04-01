@@ -1,0 +1,121 @@
+/* 
+:root {
+    --hcolor: #4c87d9e8;
+    --bcolor: #e4eef0;
+} */
+/* :root {
+    --hcolor: #1c424ae8;
+    --hcolor: #4cd995e8;
+    --bcolor: #fffefe;
+} */
+
+:root {
+    --hcolor: #1c424ae8;
+    --mcolor: #4cd995e8;
+    --bcolor: #fffefe;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--hcolor);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: var(--bcolor);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding: 3px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: var(--hcolor);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--hcolor);
+    color: #fff;
+}
+
+main {
+    margin: 20px;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    direction: rtl;
+    border-radius: 10px;
+}
+
+h2 {
+    color: var(--hcolor);
+    margin-top: 0;
+}
+
+.universities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.university {
+    background-color: var(--bcolor);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.university h3 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.university p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.university a {
+    color: var(--hcolor);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--hcolor);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.university a:hover {
+    background-color: var(--hcolor);
+    color: #fff;
+}
